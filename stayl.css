@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    
+}
+
+.table{
+    border-collapse: collapse;
+    width: 70%;
+    height: 150px;
+    font-family: 'Sour Gummy', cursive;
+}
+th{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(195, 216, 216);
+}
+
+tbody tr:hover{
+    cursor: pointer;
+    background-color: rgb(58, 226, 43);
+    color: white;
+}
+
+tbody{
+    text-align: center;
+}
+
+td button{
+    padding: 5px 15px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px burlywood solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+td button:hover{
+    color: white;
+    background: black;
+    border: 1px solid transparent;
+    transform: scale(1.05);
+}
+
+td button:active{
+    transform: scale(1);
+}
